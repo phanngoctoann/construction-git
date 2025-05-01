@@ -1,0 +1,53 @@
+body.dark {
+    background-color: #807c7c;
+    color: #ffffff;
+    /* toàn bộ chữ mặc định thành trắng */
+}
+
+body.dark header,
+body.dark aside,
+body.dark main {
+    background-color: #807c7c;
+    color: #ffffff;
+}
+
+/* Chữ trong thẻ a (sidebar) */
+body.dark a {
+    color: #dddddd;
+    background-color: #807c7c;
+}
+
+/* Sidebar menu con */
+body.dark .sidebar a:hover {
+    color: #90cdf4;
+    background-color: #807c7c;
+}
+
+/* Nút */
+body.dark button {
+    background-color: #807c7c;
+    color: #fff;
+    border: 1px solid #555;
+}
+
+/* Ô nhập liệu */
+body.dark input,
+body.dark select,
+body.dark textarea {
+    background-color: #f1ebeb;
+    color: #fff;
+    border: 1px solid #555;
+}
+
+/* Bảng */
+body.dark th,
+body.dark td {
+    color: #fff;
+    border-color: #444;
+}
+
+/* Nút Đăng xuất */
+body.dark .logout-button {
+    background-color: #0056b3;
+    color: #fff;
+}
